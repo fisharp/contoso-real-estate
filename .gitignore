@@ -52,3 +52,5 @@ out
 *.DS_Store
 .azure
 packages/blog/.vscode/settings.json
+# nyc test coverage
+.nyc_output

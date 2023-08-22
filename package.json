@@ -9,6 +9,7 @@
     "start:api": "npm run start --workspace=api",
     "start:website": "npm run start:swa --workspace=portal",
     "test": "npm run test -ws --if-present",
+    "coverage": "nyc npm run test -ws --if-present",
     "build": "npm run build -ws --if-present",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
@@ -30,6 +31,7 @@
   "devDependencies": {
     "concurrently": "^7.6.0",
     "git-commit-msg-linter": "^4.2.1",
+    "nyc": "^15.1.0",
     "prettier": "^2.7.1",
     "rimraf": "^4.3.1"
   },
